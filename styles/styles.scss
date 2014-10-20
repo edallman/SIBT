@@ -1,0 +1,177 @@
+@import "reset";
+
+// colours
+$yellow: #fdd500;
+$grey: #333;
+$white: #eee;
+
+
+// fonts  
+
+body {
+	background-color: $grey;
+	font-family: 'Oswald', 'Helvetica', sans-serif;
+	color: $grey;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+a {
+	text-transform: none;
+	color: #555;
+	text-decoration: none;
+	text-align: left;
+
+}
+
+h2 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+p.footer{
+	font-size: 12px;
+	letter-spacing: .75px;
+	font-weight: 400;
+}
+
+// title stuff
+
+.containertitle {
+	margin: 0 auto;
+	width: 80%;
+	background: none;
+	padding-bottom: 2%;
+}
+
+img.title {
+	width: 100%;
+}
+
+
+// body stuff
+
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	background: $yellow;
+	padding-top: 2%;
+}
+.containertoppad {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	background: $yellow;
+	padding-top: none;
+}
+
+.containerfooter {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	background: $yellow;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+button {
+	transition: background-color 0.5s ease;
+	background-color: $grey;
+	border: 3px solid $yellow;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	color: $yellow;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+button:hover {
+	background-color: $yellow;
+	color: $grey;
+	transition: background-color 0.5s ease;
+	border: 3px solid $grey;
+}
+
+// levels 
+
+fieldset {
+	border: none;
+}
+
+input {
+    display: none;
+}
+
+
+input:checked + label > svg #bigcircle {
+   		fill: $grey;
+   		transition: fill 0.2s ease;
+	}
+
+
+.level1, .level2 {
+	width: 30%;
+	padding-left: 3%;
+	padding-right: 3%;
+	float: left;
+	text-align: center;
+}
+
+.level1{
+	margin-left: 20%;
+}
+
+
+img.fair, img.hard {
+	width: 100%;
+}
+
+// input
+.input {
+	margin: 0 auto;
+	width: 100%;
+}
+
+// results
+
+#result, #result2 {
+	color: $grey;
+	font-size: 22px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	width: 75%;
+	margin: 0 auto;
+	padding-bottom: 2%;
+
+}
+
+.disabled {
+	display:none;
+}
+
+// responsive things
+
+@media (max-width: 768px) {
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
+
+
