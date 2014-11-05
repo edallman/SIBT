@@ -13,7 +13,7 @@ body {
 	font-family: 'Oswald', 'Helvetica', sans-serif;
 	color: $grey;
 	text-align: center;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
@@ -26,7 +26,7 @@ a {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 30px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -81,6 +81,7 @@ img.title {
 	background: $yellow;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	margin-bottom: 5%;
 }
 
 button {
@@ -97,7 +98,7 @@ button {
 	padding-right: 5%;
 	margin-top: 5%;
 	margin-bottom: 2%;
-	font-size: 18px;
+	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 400;
 }
@@ -153,12 +154,13 @@ img.fair, img.hard {
 
 #result, #result2 {
 	color: $grey;
-	font-size: 22px;
+	font-size: 26px;
 	line-height: 1.5;
 	text-transform: uppercase;
 	width: 75%;
 	margin: 0 auto;
 	padding-bottom: 2%;
+	padding-top: 2%;
 
 }
 

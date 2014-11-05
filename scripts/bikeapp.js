@@ -37,9 +37,10 @@ bikeApp.evalLevel = function(){
 
   	if (level === true){
     $('#result').text('common, youre hardcore! ride on, bike warrior.');
+    $('#resultimg').removeClass('disabled');
     $('#resultimg').attr({
     	  src: 'images/thumbsup.png',
-    	  alt: 'warning'
+    	  alt: 'thumbsup'
     });
 
   }  else if (level === false) {
